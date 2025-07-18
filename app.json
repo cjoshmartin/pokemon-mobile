@@ -10,7 +10,8 @@
     "scheme": "pokemon",
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.cjoshmartin.pokemon"
+      "bundleIdentifier": "com.cjoshmartin.pokemon",
+      "associatedDomains": ["applinks:pokemon-web-chi.vercel.app"]
     },
     "android": {
       "adaptiveIcon": {

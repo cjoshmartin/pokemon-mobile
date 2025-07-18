@@ -32,6 +32,10 @@ export function App() {
           // Change the scheme to match your app's scheme defined in app.json
           prefix,
           'pokemon://',
+          'http://pokemon-web-chi.vercel.app',
+          'https://pokemon-web-chi.vercel.app',
+          'https://pokemon-web-chi.vercel.app/pokemon/*',
+          'http://pokemon-web-chi.vercel.app/pokemon/*',
         ],
       }}
       onReady={() => {
