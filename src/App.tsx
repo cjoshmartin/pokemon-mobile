@@ -5,6 +5,7 @@ import * as SplashScreen from 'expo-splash-screen';
 import * as React from 'react';
 import { useColorScheme } from 'react-native';
 import { Navigation } from './navigation';
+import * as Linking from 'expo-linking';
 
 Asset.loadAsync([
   ...NavigationAssets,
@@ -13,6 +14,9 @@ Asset.loadAsync([
 ]);
 
 SplashScreen.preventAutoHideAsync();
+
+
+const prefix = Linking.createURL('/');
 
 export function App() {
   const colorScheme = useColorScheme();
@@ -26,7 +30,8 @@ export function App() {
         enabled: 'auto',
         prefixes: [
           // Change the scheme to match your app's scheme defined in app.json
-          'helloworld://',
+          prefix,
+          'pokemon://',
         ],
       }}
       onReady={() => {
