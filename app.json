@@ -32,6 +32,12 @@
         }
       ],
       "react-native-edge-to-edge"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "f960741b-75bc-4c95-b7d0-5133a13d4039"
+      }
+    },
+    "owner": "cjoshmartin"
   }
 }
