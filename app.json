@@ -12,7 +12,7 @@
       "supportsTablet": true,
       "bundleIdentifier": "com.cjoshmartin.pokemon",
       "associatedDomains": [
-        "applinks:pokemon.cjoshmartin.com"
+        "applinks:pokemon-web-chi.vercel.app"
       ]
     },
     "android": {
