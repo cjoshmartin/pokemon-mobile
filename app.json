@@ -13,7 +13,12 @@
       "bundleIdentifier": "com.cjoshmartin.pokemon",
       "associatedDomains": [
         "applinks:pokemon-web-chi.vercel.app"
-      ]
+      ],
+      "entitlements": {
+        "com.apple.developer.associated-domains": [
+          "applinks:pokemon-web-chi.vercel.app"
+        ]
+      }
     },
     "android": {
       "adaptiveIcon": {
